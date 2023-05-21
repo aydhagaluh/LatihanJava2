@@ -1,0 +1,287 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+    background-color: #FBF8F1;}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;}
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #41644A;}
+.menu{
+    float: right;}
+/**biar header nggak ke scroll **/
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FBF8F1;
+    z-index: 1;
+    border-bottom:1px solid #41644A;}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+nav ul li{
+    float: left;}
+nav ul li a{
+    color: #61876E;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;}
+nav ul li a:hover{
+    text-decoration: underline;}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A35638;}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #335D2D;
+    width: 100%;
+    line-height: 50px;}
+a.tbl-biru{
+    background: #96BB7C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;}
+a.tbl-biru:hover{
+    background: #F7D060;
+    text-decoration: none;}
+a.tbl-pink{
+    background: #F7D060;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;}
+a.tbl-pink:hover{
+    background: #96BB7C;
+    text-decoration: none;}
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: justify;}
+a.tbl-red{
+    background: #ABC4AA;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;}
+a.tbl-red:hover{
+    background: #F3DEBA;
+    text-decoration: none;}
+.tengah{
+    text-align: center;
+    width: 100%;}
+.resep-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;}
+.kartu-resep{
+    width: 20%;
+    margin: 0 auto;}
+.kartu-resep img{
+    width: 80%;
+    border-radius: 50%;
+}
+.kartu-resep p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    color: #A35638;}
+.kartu-resep a{
+    color: #EBB02D;}
+.kartu-resep a:hover{
+    text-decoration: underline;}
+.funfact-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;}
+.kartu-funfact{
+    width: 20%;
+    margin: 0 auto;}
+.kartu-funfact img{
+    width: 60%;
+    border-radius: 50%;}
+.kartu-funfact p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    color: #A35638;}
+.kartu-funfact a{
+    color: #A35638;}
+#contact{
+    background: #C8DBBE;
+    padding: 50px 0px 50px 0px;}
+.footer{
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;}
+.footer-section{
+    width: 20%;
+    margin: 0 auto;}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FF6D60;
+    width: 90%;
+    line-height: 50px;}
+.footer-section p{
+    text-align: left;
+}
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;}
+@media screen and (max-width: 991.98px){
+    .wrapper {
+        width: 90%;}
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;}
+    nav .menu{
+        width: 100%;
+        margin: 0;}
+    nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;} 
+    nav .menu ul li{
+        display: inline-block;
+        float: none;}
+    section{
+        display: block;}
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;}
+    .kartu-resep{
+        width: 50%;}
+    .kartu-funfact{
+        width: 50%;}
+}
+.konten h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;}
+.konten p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    text-align: justify;}
+/**untuk pop up**/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;}
+.konten img{
+    object-fit: cover;}
+.grid > article{
+    box-shadow: 10px 5px 5px 0px black;
+    border-radius: 20px;
+    text-align: center;
+    background: #FFB26B;
+    width: 300px;
+    transition: transform;}
+.grid article img{
+    border-top-right-radius: 20px; /**ngatur lekuk atas**/
+    border-top-left-radius: 20px;}
+.grid article:hover{
+    transform: scale(1.2);} /**ukuran zoom in dari bentuk semula**/
+.konten a{
+    color: black;}
+/**ngatur web kalo layar dikecilin**/
+@media (max-width:1000px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);}
+}
+@media (max-width:800px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);}
+}
+.table{
+    margin-top: 25px;
+    margin-bottom: 25px;}
+.table .deskripsi{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A35638;}
+.table h2{
+    text-align: center;}
+.table p{
+    text-align: center;}
+.table2{
+    margin-top: 20px;
+    margin-bottom: 20px;}
+.table2 .deskripsi{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A35638;}
+.table2 h2{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.table2 p{
+    text-align: justify;
+    font-size: 18px;
+    color: black;}
+.table2 ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E08F62;
+    font-size: 25px;}
+.table2 ul li{float: left;}
+.table2 a{
+    font-size: 25px;
+    color: #A35638;}
+.funfact a {
+    font-size: 15px;
+    color: black;}

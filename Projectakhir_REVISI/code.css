@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+    background-color: #FBF8F1;}
+    .wrapper{
+        width: 1100px;
+        margin: auto;
+        position: relative;}
+    .logo a{
+        font-size: 50px;
+        font-weight: 800;
+        float: left;
+        font-family: 'Courier New', Courier, monospace;
+        color: #41644A;}
+    .menu{
+        float: right;}
+    /**biar header nggak ke scroll **/
+    nav{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        line-height: 80px;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        background: #FBF8F1;
+        z-index: 1;
+        border-bottom:1px solid #41644A;}
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;}
+    nav ul li{
+        float: left;}
+    nav ul li a{
+        color: #61876E;
+        font-weight: bold;
+        text-align: center;
+        padding: 0px 16px 0px 16px;
+        text-decoration: none;}
+    nav ul li a:hover{
+        text-decoration: underline;}
+        a.tbl-biru{
+            background: #96BB7C;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;}
+        a.tbl-biru:hover{
+            background: #F7D060;
+            text-decoration: none;}
+  .head {
+    max-width: 350px;
+    border: 2px solid #96BB7C;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: "Orbitron", sans-serif;
+    color: #333;}
+  
+  .score {
+    margin-top: 10px;}
+  
+  .container {
+    max-width: 850px; /*untuk ngurangin ukuran kotak gambar game*/
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+    margin: auto;
+    padding: 20px;}
+  
+  .cell div {
+    height: 130px;
+    border-radius: 4px;}
+  
+  .cell {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #96BB7C;
+    background-color: #f2f2f2;
+    transform: rotateY(90deg);
+  }
+  
+  .back {
+    background-color: #EBB02D;
+  }
+  
+  img {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .flip {
+    transform: rotateY(0deg);
+  }
+  .match {
+    transform: rotateY(0deg);
+  }
+  
+  .show {
+    transform: rotateY(0deg);
+  }
+  
+  @media screen and (min-width: 770px) {
+    .head {
+      max-width: 760px;
+    }
+  
+    .container {
+      grid-template-columns: repeat(4, auto);
+    }
+  
+    .cell div {
+      height: 170px;
+    }
+  }
+  #contact{
+    background: #C8DBBE;
+    padding: 50px 0px 50px 0px;}
+.footer{
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;}
+.footer-section{
+    width: 20%;
+    margin: 0 auto;}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FF6D60;
+    width: 90%;
+    line-height: 50px;}
+.footer-section p{
+    text-align: left;
+}
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;}
