@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIPA.com</title>
+    <link rel="stylesheet" href="kode.css">
+</head>
+<body>
+    <nav>
+        <!--untuk header-->
+        <div class="wrapper">
+            <div class="logo"><a href="">MIPA.com</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="Projectakhir.html">Home</a></li>
+                    <li><a href="#daerah">Materi</a></li>
+                    <li><a href="game.html">Game</a></li>
+                    <li><a href="#funfact">Quiz</a></li>
+                    <li><a href="Kalkulator.html">Kalkulator</a></li>
+                    <li><a href="" class="tbl-biru">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <h1>Quiz Online</h1>
+    <label for="">Nama: </label><br>
+    <input type="text" id="nama"><br>
+    <label for="">No. Absen: </label><br>
+    <input type="text" id="absen"><br>
+    <label for="">Nilai: </label> <div id="nilai"></div>
+    <hr>
+    <!--soal nomor 1-->
+    <h4>I. Pilihan Ganda</h4>    
+    <label for="">1. Diketahui kubus ABCD.EFGH dengan panjang rusuk 8 cm. Jarak titik H ke garis AC adalah...</label><br>
+    <input type="radio" name="no_1"> 8√3 cm <br>
+    <input type="radio" name="no_1"> 8√2 cm <br> 
+    <input type="radio" name="no_1" id="jno1" > 4√6 cm <br>
+    <input type="radio" name="no_1"> 4√3 cm <br>
+    <input type="radio" name="no_1"> 4√2 cm <br>
+    <div id="rno1"></div>
+    <!--soal nomor 2-->
+    <label for="">2. Limas ABCD berikut merupakan limas segitiga beraturan. Jarak titik A ke garis BE adalah...</label><br>
+    <img src="https://rimasetiawati29.files.wordpress.com/2016/12/201612092208111005.jpg?w=685" alt="" width="20%" height="20%"><br>
+    <input type="radio" name="no_2"> 3√2 cm <br>
+    <input type="radio" name="no_2" id="jno2"> 2√6 cm <br> 
+    <input type="radio" name="no_2"> 6 cm <br>
+    <input type="radio" name="no_2"> 4√3 cm <br>
+    <input type="radio" name="no_2"> 8 cm <br>
+    <div id="rno2"></div>
+    <!--soal nomor 3-->
+    <label for="">3. Diketahui y = x sin x, maka y" + y adalah...</label><br>
+    <input type="radio" name="no_3" id="jno3"> 2 cos x <br>
+    <input type="radio" name="no_3"> sin x cos x <br> 
+    <input type="radio" name="no_3"> cos x <br>
+    <input type="radio" name="no_3"> cos x - sin x <br>
+    <input type="radio" name="no_3"> 2 cos x - 1 <br>
+    <div id="rno3"></div>
+    <!--soal nomor 4-->
+    <label for="">4. Nilai stasioner dari fungsi f(x) = 2 sin x adalah... </label><br>
+    <input type="radio" name="no_4" id="jno4"> -2 dan 2 <br>
+    <input type="radio" name="no_4"> -1 dan 1 <br> 
+    <input type="radio" name="no_4"> 0 <br>
+    <input type="radio" name="no_4"> 0 dan 1 <br>
+    <input type="radio" name="no_4"> 0 dan 2 <br>
+    <div id="rno4"></div>
+    <!--soal nomor 5-->
+    <label for="">5. Perhatikan diagram berikut ini! </label><br>
+    <img src="https://roboguru-forum-cdn.ruangguru.com/bbbeee72-4743-42e5-888b-b299ba8018fa.PNG" alt="" width="50%" height="25%"><br>
+    <label for="">Mutasi yang terjadi pada potongan DNA tersebut adalah... </label><br>
+    <input type="radio" name="no_5"> translokasi <br>
+    <input type="radio" name="no_5"> inversi <br> 
+    <input type="radio" name="no_5"> insersi <br>
+    <input type="radio" name="no_5"> transversi <br>
+    <input type="radio" name="no_5" id="jno5"> transisi <br>
+    <div id="rno5"></div>
+    <!--soal nomor 6-->
+    <label for="">6. Apabila melihat seseorang dengan ciri-ciri seperti pada gambar, seseorang tersebut memiliki kelebihan satu kromosom, tepatnya pada kromosom nomor...</label><br>
+    <img src="https://imgix2.ruangguru.com/assets/miscellaneous/png_aaehi4_9374.png" alt="" width="25%" height="30%" ><br>
+    <input type="radio" name="no_6"> 13 <br>
+    <input type="radio" name="no_6"> 14 <br> 
+    <input type="radio" name="no_6"> 15 <br>
+    <input type="radio" name="no_6" id="jno6"> 21 <br>
+    <input type="radio" name="no_6"> 22 <br>
+    <div id="rno6"></div>
+    <!--soal nomor 7-->
+    <label for="">7. Pada gambar rangkaian listrik berikut A, B, C, D, dan E adalah lampu pijar identik.</label><br>
+    <img src="https://zs-inline.s3.ap-southeast-1.amazonaws.com/production/d/b4/071d/db4071dfbad648cbbe96716a7ba1956a.png?efs=https%3A%2F%2Fwww.zenius.net%2Fassets%2Fv-img%2Fd%2Fb4%2F071d%2Fdb4071dfbad648cbbe96716a7ba1956a.png" alt="" width="25%" height="30%" ><br>
+    <label for="">Jika lampu B dilepas, lampu yang menyala lebih terang adalah...</label><br>
+    <input type="radio" name="no_7"> A dan D <br>
+    <input type="radio" name="no_7" id="jno7"> A dan C <br> 
+    <input type="radio" name="no_7"> C dan D <br>
+    <input type="radio" name="no_7"> C dan E <br>
+    <input type="radio" name="no_7"> D dan E <br>
+    <div id="rno7"></div>
+    <!--soal nomor 8-->
+    <label for="">8. Besar arus listrik yang melewati hambatan 4 Ω pada rangkaian listrik DC pada gambar di bawah ini adalah...</label><br>
+    <img src="https://core-ruangguru.s3.amazonaws.com/assets/ruang_belajar/questions/q_nctjd08746.png" alt="" width="50%" height="50%" ><br>
+    <input type="radio" name="no_8"> 1,25 A <br>
+    <input type="radio" name="no_8"> 1,100 A <br> 
+    <input type="radio" name="no_8"> 0,75 A <br>
+    <input type="radio" name="no_8" id="jno8"> 0,25 A <br>
+    <input type="radio" name="no_8"> 0,50 A <br>
+    <div id="rno8"></div>
+    <!--soal nomor 9-->
+    <label for="">9. Struktur molekul benzena sebagai berikut.</label><br>
+    <img src="https://imgix2.ruangguru.com/assets/miscellaneous/jpg_hvutr9_2176.jpg" alt="" width="35%" height="35%" ><br>
+    <label for="">Atom-atom hidrogen yang terikat oleh atom C, kedudukannya pada...</label>
+    <input type="radio" name="no_9"> C3 = C2 <br>
+    <input type="radio" name="no_9"> C2 = C5 <br> 
+    <input type="radio" name="no_9"> C3 = C5 <br>
+    <input type="radio" name="no_9"> C1 sampai dengan C6 tidak sama <br>
+    <input type="radio" name="no_9" id="jno9"> C1 sampai dengan C6 sama <br>
+    <div id="rno9"></div>
+    <!--soal nomor 10-->
+    <label for="">Nama yang tepat untuk senyawa turunan benxena di bawah ini adalah...</label><br>
+    <img src="soal.png" alt="" width="40%" height="40%" ><br>
+    <input type="radio" name="no_10"> 2, 4, 6-trinitro benzena <br>
+    <input type="radio" name="no_10" id="jno10"> 2, 4, 6-trinitro toluena <br> 
+    <input type="radio" name="no_10"> 1, 3, 5-trinitro benzena <br>
+    <input type="radio" name="no_10"> 1, 3, 5-trikloro toluena <br>
+    <input type="radio" name="no_10"> 2, 4, 6-nitro benzena <br>
+    <div id="rno10"></div>
+
+    <h4>II. Jawaban Singkat</h4>
+    <label for="">1. Diketahui kubus ABCD.EFGH yang panjang rusuknya 8 cm. Titik Q adalah titik tengah rusuk BF. Tentukan jarak titik H ke bidang ACQ.</label>
+    <br> <input type="text" id="sno1"><br>
+    <div id="rsno1"></div>
+    <label for="">2. Pada interval 0° ≤ x ≤ 180°, nilai stasioner dari fungsi f(x) = sin 2x diperoleh pada… </label>
+    <br> <input type="text" id="sno2"><br>
+    <div id="rsno2"></div>
+    <label for="">3. Perhatikan gambar berikut!</label><br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAchJ60X57G6D-SHqfpoVyEbYKCVTtas5nk0hEjyQ_uQuK_Qll" alt="" width="40%" height="40%"><br>
+    <label for="">Mutasi yang terjadi pada sepotong DNA tersebut adalah...</label>
+    <br> <input type="text" id="sno3"><br>
+    <div id="rsno3"></div>
+    <label for="">4. Perhatikan gambar berikut. Jika sebuah hambatan yang nilainya 4R dirangkaikan pararel pada titik P dan Q maka nilai arus listrik pada rangkaian akan menjadi...</label><br>
+    <img src="https://imgix2.ruangguru.com/assets/miscellaneous/jpg_ysuigt_4151.JPG" alt="" width="40%" height="40%">
+    <br><input type="text" id="sno4"><br>
+    <div id="rsno4"></div>
+    <label for="">5. Tuliskan nama senyawa turunan benzena berikut ini!</label>
+    <img src="https://imgix2.ruangguru.com/assets/miscellaneous/png_rmfb3d_429.PNG" alt="" width="30%" height="30%">
+    <br><input type="text" id="sno5"><br>
+    <div id="rsno5"></div>
+    <hr>
+    <button onclick="kirim()">Kirim</button>
+    <br>
+    <br>
+    <br>
+    <script>
+        function kirim(){
+            const jno1 = document.querySelector('#jno1')
+            const jno2 = document.querySelector('#jno2')
+            const jno3 = document.querySelector('#jno3')
+            const jno4 = document.querySelector('#jno4')
+            const jno5 = document.querySelector('#jno5')
+            const jno6 = document.querySelector('#jno6')
+            const jno7 = document.querySelector('#jno7')
+            const jno8 = document.querySelector('#jno8')
+            const jno9 = document.querySelector('#jno9')
+            const jno10 = document.querySelector('#jno10')
+            const sno1 = document.querySelector('#sno1')
+            const sno2 = document.querySelector('#sno2')
+            const sno3 = document.querySelector('#sno3')
+            const sno4 = document.querySelector('#sno4')
+            const sno5 = document.querySelector('#sno5')
+
+            const rno1 = document.querySelector('#rno1')
+            const rno2 = document.querySelector('#rno2')
+            const rno3 = document.querySelector('#rno3')
+            const rno4 = document.querySelector('#rno4')
+            const rno5 = document.querySelector('#rno5')
+            const rno6 = document.querySelector('#rno6')
+            const rno7 = document.querySelector('#rno7')
+            const rno8 = document.querySelector('#rno8')
+            const rno9 = document.querySelector('#rno9')
+            const rno10 = document.querySelector('#rno10')
+            const rsno1 = document.querySelector('#rsno1')
+            const rsno2 = document.querySelector('#rsno2')
+            const rsno3 = document.querySelector('#rsno3')
+            const rsno4 = document.querySelector('#rsno4')
+            const rsno5 = document.querySelector('#rsno5')
+            const nilai =document.querySelector('#nilai')
+
+            let response
+            let poin = 0
+            if(jno1.checked){
+                response = 'Jawaban Kamu Benar'
+                rno1.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno1.style = 'color: red;'
+            }
+            rno1.innerHTML = response
+
+            if(jno2.checked){
+                response = 'Jawaban Kamu Benar'
+                rno2.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno2.style = 'color: red;'
+            }
+            rno2.innerHTML = response
+
+            if(jno3.checked){
+                response = 'Jawaban Kamu Benar'
+                rno3.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno3.style = 'color: red;'
+            }
+            rno3.innerHTML = response
+
+            if(jno4.checked){
+                response = 'Jawaban Kamu Benar'
+                rno4.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno4.style = 'color: red;'
+            }
+            rno4.innerHTML = response
+
+            if(jno5.checked){
+                response = 'Jawaban Kamu Benar'
+                rno5.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno5.style = 'color: red;'
+            }
+            rno5.innerHTML = response
+
+            if(jno6.checked){
+                response = 'Jawaban Kamu Benar'
+                rno6.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno6.style = 'color: red;'
+            }
+            rno6.innerHTML = response
+
+            if(jno7.checked){
+                response = 'Jawaban Kamu Benar'
+                rno7.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno7.style = 'color: red;'
+            }
+            rno7.innerHTML = response
+
+            if(jno8.checked){
+                response = 'Jawaban Kamu Benar'
+                rno8.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno8.style = 'color: red;'
+            }
+            rno8.innerHTML = response
+
+            if(jno9.checked){
+                response = 'Jawaban Kamu Benar'
+                rno9.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno9.style = 'color: red;'
+            }
+            rno9.innerHTML = response
+
+            if(jno10.checked){
+                response = 'Jawaban Kamu Benar'
+                rno10.style = 'color: green;'
+                poin = poin+5
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rno10.style = 'color: red;'
+            }
+            rno10.innerHTML = response
+
+            if(sno1.value == '4√6 cm'){
+                response = 'Jawaban Kamu Benar'
+                rsno1.style = 'color: green;'
+                poin = poin+10
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rsno1.style = 'color: red;'
+            }
+            rsno1.innerHTML = response
+
+            if(sno2.value == 'x = 45° dan x = 135°'){
+                response = 'Jawaban Kamu Benar'
+                rsno2.style = 'color: green;'
+                poin = poin+10
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rsno2.style = 'color: red;'
+            }
+            rsno2.innerHTML = response
+
+            if(sno3.value == 'Insersi'){
+                response = 'Jawaban Kamu Benar'
+                rsno3.style = 'color: green;'
+                poin = poin+10
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rsno3.style = 'color: red;'
+            }
+            rsno3.innerHTML = response
+
+            if(sno4.value == '6 Ampere'){
+                response = 'Jawaban Kamu Benar'
+                rsno4.style = 'color: green;'
+                poin = poin+10
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rsno4.style = 'color: red;'
+            }
+            rsno4.innerHTML = response
+
+            if(sno5.value == 'o-nitro benzoat'){
+                response = 'Jawaban Kamu Benar'
+                rsno5.style = 'color: green;'
+                poin = poin+10
+            }else{
+                response = 'Jawaban Kamu Salah'
+                rsno5.style = 'color: red;'
+            }
+            rsno5.innerHTML = response
+
+            nilai.innerHTML = poin
+        }    
+    </script>
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>MIPA.com</h3>
+                    <p>Web pembelajaran yang khusus membahas tentang mata pelajaran jurusan MIPA yaitu Matematika wajib dan peminatan, Biologi, Fisika, dan Kimia.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About.</h3>
+                    <p>Web Pembelajaran bernama MIPA.com yang dikembangkan tahun 2023 dan dibuat untuk memfasilitasi kegiatan belajar peserta didik dimanapun dan kapanpun.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact.</h3>
+                    <p><b>Alamat:</b> Mangkudranan, Tempel, Sleman, DIY</p>
+                    <p><b>Kode Pos:</b> 55552</p>
+                    <p><b>Instagram: </b>aydha_aa</p>
+                    <p><b>WhatsApp: </b>081234110613</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Thanks to.</h3>
+                    <p>Canva.com</p>
+                    <p>Pixabay.com</p>
+                    <p>Google.com</p>
+                    <p>Pinterest.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2023. <b>MIPA.com .</b> All Rights Reserved.
+        </div>
+    </div>
+</body>
+</html>
